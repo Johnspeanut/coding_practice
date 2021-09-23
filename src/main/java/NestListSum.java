@@ -45,10 +45,6 @@ public class NestListSum {
       this.getValue = getValue;
       this.elementList = elementList;
     }
-//    public Element(boolean intOrList, int getValue){
-//      this.intOrList = intOrList;
-//      this.getValue = getValue;
-//    }
   }
 
 }
