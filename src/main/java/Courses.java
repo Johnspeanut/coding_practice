@@ -20,7 +20,7 @@ public class Courses {
       System.out.println("is Cycle :" + hasCycle);
       return new int[0];
     }
-
+    System.out.println();
     // List<Integer>[] graph = buildGraph(numCourses, prerequisites);
     res = new ArrayList<>();
     visited = new boolean[numCourses];
