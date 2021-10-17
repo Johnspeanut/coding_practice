@@ -4,6 +4,13 @@ import java.util.List;
 
 
 class combination {
+
+  public static void main(String[] args) {
+    combination com = new combination();
+    int[] nums = {1, 2,3};
+    List<List<Integer>>  res = com.subsets(nums);
+
+  }
   public List<List<Integer>> subsets(int[] nums) {
     List<List<Integer>> res = new ArrayList<>();
     LinkedList<Integer> comb = new LinkedList<>();
